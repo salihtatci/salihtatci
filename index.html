@@ -84,6 +84,66 @@
         <h2>Yetenekler & Hobiler</h2>
     </header>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yetenekler & Hobiler</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Styles for the Skills and Hobbies section */
+        #skills-hobbies {
+            background-color: #1e1e2f;
+            padding: 40px;
+            color: white;
+        }
+
+        #skills-hobbies .major h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        /* Container to hold both sections side by side */
+        .skills-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px; /* Adds space between the sections */
+            flex-wrap: wrap; /* Ensures it wraps on smaller screens */
+        }
+
+        /* Styling for both sections */
+        .skills, .hobbies {
+            flex: 1; /* Allows both sections to take equal width */
+            padding: 20px;
+            background-color: #333;
+            border-radius: 8px;
+            min-width: 250px; /* Ensures they don’t get too small */
+        }
+
+        .skills h3, .hobbies h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .skills ul, .hobbies ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li, .hobbies li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            font-size: 1.1rem;
+            color: #34b7f1;
+        }
+    </style>
+</head>
+<body>
+    
     <!-- Container for both Technical and Hobbies sections side by side -->
     <div class="skills-container">
         <!-- Technical Skills -->
