@@ -1,4 +1,3 @@
-\[media pointer="file-service://file-GT78JHgidjszyyWhRjs3cH"]
 
 <!DOCTYPE HTML>
 
@@ -86,6 +85,118 @@
                 </div>
             </section>
 
+            <!-- Skills and Hobbies Section -->
+<section id="skills-hobbies" class="main special">
+    <header class="major">
+        <h2>Yetenekler & Hobiler</h2>
+    </header>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yetenekler & Hobiler</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Styles for the Skills and Hobbies section */
+        /* Styles for the Skills and Hobbies section */
+#skills-hobbies {
+    background-color: #ffffff; /* Slightly lighter background for consistency */
+    padding: 50px 20px; /* More space to align better with the rest of the page */
+    color: #f0f0f0;
+    border-radius: 10px; /* Rounded corners for a smoother look */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0); /* Subtle shadow to make it stand out */
+    margin-top: 40px; /* Adds space between the sections */
+}
+
+#skills-hobbies .major h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center; /* Center-align the title */
+    color: #505557; /* A bright color for the title */
+}
+
+/* Container to hold both sections side by side */
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Styling for both sections */
+.skills, .hobbies {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff; /* Matching dark background for each section */
+    border-radius: 8px;
+    min-width: 300px; /* Prevents sections from becoming too narrow */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Small shadow for depth */
+}
+
+.skills h3, .hobbies h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #ffffff; /* Light color for headers */
+}
+
+.skills ul, .hobbies ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li, .hobbies li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    text-align: center; /* Center-align the list items */
+}
+
+strong {
+    font-size: 1.1rem;
+    color: #34b7f1; /* Color for the list items */
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column; /* Stack sections vertically on small screens */
+        gap: 20px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    
+    <!-- Container for both Technical and Hobbies sections side by side -->
+    <div class="skills-container">
+        <!-- Technical Skills -->
+        <div class="skills">
+            <h3>Teknik</h3>
+            <ul>
+                <li><strong>Python</strong></li>
+                <li><strong>ArcGIS&QGIS</strong></li>
+                <li><strong>PyGMTSAR</strong></li>
+                <li><strong>ESA SNAP & G.E.Engine</strong></li>
+            </ul>
+        </div>
+
+        <!-- Hobbies -->
+        <div class="hobbies">
+            <h3>Hobiler</h3>
+            <ul>
+                <li><strong>Her türlü spor</strong></li>
+                <li><strong>Seyehat</strong></li>
+                <li><strong>Gitar</strong></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
             <!-- First Section -->
             <section id="first" class="main special">
                 <header class="major">
@@ -172,15 +283,11 @@
         <!-- Footer -->
         <footer id="footer">
             <section>
-                <hr> <!-- Horizontal line to separate sections -->
-
-    <!-- Map Section -->
-    <section id="map-container">
-        <div id="map" style="height: 400px;"></div>
-    </section>
-
-    <p class="copyright">&copy; Untitled. Design: <a href="">Salih Tatcı</a>.</p>
-</footer>
+                <h2>Aliquam sed mauris</h2>
+                <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+                <ul class="actions">
+                    <li><a href="generic.html" class="button">Learn More</a></li>
+                </ul>
             </section>
             <section>
                 <h2 id="iletisim">İletişim</h2> <!-- Burada id'yi ekledim -->
@@ -213,6 +320,6 @@
     <script src="assets/js/main.js"></script>
 
 </body>
-```
+
 
 </html> 
